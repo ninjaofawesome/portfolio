@@ -1,0 +1,120 @@
+
+/*#######GENERAL#####*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #E5E5E5;
+}
+
+/*#######PADDING AND MARGINS#######*/
+
+
+.container {
+	padding: 0 15px;
+}
+
+.head_space {
+	margin-top: 90px;
+	margin-left: 20px;
+}
+
+
+.column_space {
+	padding-top: 30px;
+	margin-left: 10px;
+}
+
+.top_space {
+	padding-top: 30px;
+}
+
+.top_extra_space {
+	padding-top: 80px;
+}
+
+.top_space_mini {
+	padding-top: 30px;
+	margin-bottom:-30px;
+}
+.top_space_itty_bitty {
+	padding-top: 0;
+	margin-bottom:-30px;
+}
+.right_space {
+	padding-right: 20px;
+}
+
+
+/*########FONTS##########*/
+
+@font-face {
+	font-family: 'turnpike';
+	src: url('/fonts/turnpike-webfont.eot'); 
+	src: url('/fonts/turnpike-webfont.eot') format('embedded-opentype'),
+	     url('/fonts/turnpike-webfont.woff') format('woff'),
+	     url('/fonts/turnpike-webfont.ttf')  format('truetype'), 
+	     url('/fonts/turnpike-webfont.svg') format('svg'); 
+	}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+  font-family: 'turnpike', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+}
+
+
+
+
+p {
+	font-weight: bold;
+}
+
+/*h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}*/
+
+
+
+
+/*#########LINKS########*/
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #666;
+  text-decoration: underline;
+}
+
+
+/*#######LISTS#######*/
+
+.no_dot {
+	list-style-type: none
+}
+
+.big_and_bold {
+	  padding-top: 5px;
+	  font-family: 'turnpike', Helvetica, Arial, sans-serif;
+	  font-weight: 700;
+	  line-height: 1.1;
+	  color: inherit;
+
+}
